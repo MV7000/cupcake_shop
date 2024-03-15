@@ -1,0 +1,982 @@
+body,:root{
+    margin: 0;
+    padding:0;
+    background-image: url("/image/bg 1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+   }
+   /* main{
+display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+   } */
+
+
+   .header_cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 2.5vw;
+   }
+   .head_names_cont{
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+   }
+   .header_menu_wrapper{
+    display: flex;
+    gap: 1vw;
+   }
+   .head1 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #642C99;
+}
+.head1 a{
+    text-decoration: none;
+    color: #642C99;
+}
+.head2 {
+    font-weight: 900;
+}
+.cart_header {
+    position: relative;
+    height: 39.5px;
+width: 38px;
+border-radius: 0px;
+margin-right: 2vw;
+}
+.cart_header:hover{
+    cursor: pointer;
+}
+.number_cakes{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #FCEFD2;
+    color: #642C99;
+    position: absolute;
+    right: -.7vw;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   .container{
+    max-width: 120vw;
+    margin: 13vh auto;
+    display: flex;
+    justify-content: space-around;
+   }
+.container_head1{
+    margin: 4vw;
+    width: fit-content;
+}
+   .header_name1{
+    color: #642C99;
+    font-family: Wendy One;
+    font-weight: 400;
+    font-size: 12rem;
+    width: 510px;
+    height: 292px;
+ }
+   .descript1{
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    width: 519px;
+    height: 44px;
+    margin: 1vh 0;
+ }
+   .btn1{
+    width: 206px;
+    height:43px;
+    border: none;
+    border-radius: 8px;
+    background-color:#642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FBFAC9;
+    text-align: center;
+    margin-top: 5vh;
+ }
+.container_img_head{
+    width: 532px;
+    
+ }
+.top_image_change,.top_image_change2{
+    display: none;
+}
+
+/* ************************************************** */
+
+ .container_middle_all{
+    max-width: 120vw;
+    display: flex;
+    margin: 7vw 7vw 0 7vw;
+  /* justify-content: space-evenly; */
+ }
+ .container_img_middle{
+    display: flex;
+    flex-direction: column;
+    /* width:430px; */
+    gap: 5vh;
+ }
+  .container2{
+    /* position: relative;
+    top:18vh ;
+    left:4vw; */
+    margin: 10vw;
+    width: 25vw;
+   }
+ .header_name2 {
+    color: #642C99;
+    font-family: Wendy One;
+    font-size: 9rem;
+    width: 50vw;
+ }
+.descript2 {
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    width: 45vw;
+    /* height: 100px; */
+    margin: 3vh 0;
+ }
+.btn2 {
+    width: 206px;
+    height:43px;
+    border: none;
+    border-radius: 8px;
+    background-color:#642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FBFAC9;
+    text-align: center;
+}
+.middle_cake_hole{
+    display:none;
+}
+
+
+
+
+
+
+.container_cakes_buy {
+    /* position: relative;
+    top:50vh ;
+    left:4vw; */
+    max-width: 120vw;
+/* margin: 10vh auto; */
+    /* width: fit-content; */
+/* height: 200vh; */
+}
+.cakes_buy_header {
+    color: #642C99;
+    font-family: Wendy One;
+    font-size: 9rem;
+    width: 51vw;
+    margin: 40vh 0 20vh 20vh;
+    /* position: absolute;
+    top: 50vh; */
+}
+.cakes_collection {
+   margin:30vh auto;
+  /* position: absolute;
+  top: 95vh;
+    left:4vw; */
+  grid-gap: 10vw;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.cake_buy {
+text-align: center;
+width:25vw
+}
+.cake_name {
+    font-family: Wendy One;
+    font-size: 3.2rem;
+    color: #642C99;
+    margin-top: 4vh;
+}
+.cake_descript {
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 3.4vh;
+
+}
+.counter_cake_container{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 4vh;
+font-size: 2rem;
+}
+.cake_counter {
+    color: #642C99;
+    height: 6vh;
+    display: flex;
+    align-items: center; 
+    border: 2px solid #642C99 ;
+    width: 6vw;
+    border-radius: 8px;
+    justify-content: center;
+    font-family: Lato ;
+    font-weight: 700;
+    gap: 1.5vw;
+    box-sizing: border-box;
+}
+.cake_counter:hover{
+    cursor: pointer;
+}
+.cake_btn {
+    background-color: #642C99;
+    border: none;
+    border-radius: 8px;
+    width: 15vw;
+    height: 6vh;
+    color: #FBFAC9;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+
+/* *********************************************** */
+
+.container_bottom{
+    margin: 80vh auto 0;
+    max-width: 120vw;
+    display: flex;
+  justify-content: space-around;
+  /* position: relative;
+top:610vh;
+  left:4vw; */
+    width: fit-content;
+}
+.container3{
+    width: 50vw;
+}
+.container_img_bottom{
+margin: 15vh 0;
+
+}
+  .container_img_bottom img{
+width: 34vw;
+  }
+.header_name3 {
+    color: #642C99;
+    font-family: Wendy One;
+    font-size: 12rem;
+    width: 45vw;
+    }
+.descript3 {
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    width: 600px;
+    /* height: 97px; */
+    margin-top: 3vh;
+       
+}
+.btn3 {
+    width: 206px;
+    height:43px;
+    border: none;
+    border-radius: 8px;
+    background-color:#642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #FBFAC9;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+/* Модальне вікно корзини */
+
+.modal_cart_container {
+    min-height: 100vh;
+    width: 484px;
+    border-radius: 8px;
+    position: absolute;
+    top: 6vw;
+    left: 60vw;
+    background-color: #FDEFD1;
+    box-shadow: 5px 5px 5px #f8e9c7 ;
+    display: none;
+    }
+    .modal_visability{
+        display: block;
+    }
+    .header_modal {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 20vw;
+    margin: 0 auto;
+    border-bottom: 2px solid #642C99;
+    width: 90%;
+    height: 15vh;
+    }
+    .modal_topper_name{
+        font-family: Wendy One;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #642C99;
+    }
+    .mod_top_sign{
+        color: #642C99;
+        font-size: 2.3rem;
+        
+        font-family: Lato;
+    }
+    
+    .mod_top_sign:hover{
+        cursor: pointer;
+    }
+    .cakes_colections {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+    .left_part {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        width: 80%;
+    }
+    .left_part img {
+        width: 3vw;
+    }
+    .cake_modal_name {
+        font-family: Lato;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #642C99;
+    width: 10vw;
+    }
+    .right_part {
+        display: flex;
+        font-family: Lato;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #642C99;
+    
+    
+    }
+    .cakes_incheck{
+        
+        border-bottom: 2px solid #642C99;
+        padding-bottom: 5vh;
+       margin: 0 auto;
+       width: 90%;
+    }
+    .modal_total_pay{
+        font-family: Lato;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #642C99;
+    }
+    .total_modal {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 15vw;
+        margin-top: 5vh;
+    }
+    .modal_total_sum {
+        font-family: Lato;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #642C99;
+    display: flex;
+    }
+    .btn_modal_checkout{
+        height: 59px;
+    width: 90%;
+    border-radius: 8px;
+    background-color: #642C99;
+    color: #FBFAC9;
+    display: block;
+    margin: 5vh auto;
+    border: none;
+    font-family: Lato;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FBFAC9;
+    }
+    .btn_modal_checkout:hover{
+        cursor: pointer;
+    }
+    
+    .btn_modal_viewcart{
+    font-family: Lato;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #642C99;
+    border: none;
+    background-color: #FDEFD1;
+    display: block;
+    margin: 0 auto;
+    }
+    .btn_modal_viewcart:hover{
+        cursor:pointer;
+    }
+    
+
+    /* Гамбургер меню */
+/* Іконка */
+#hamburger_menu {
+    transition-duration: 1s;
+    margin: 1.5vh auto;
+    cursor: pointer;
+    display: none;
+    /* display: block; */
+  }
+  #hamburger_menu span {
+    height: 4px;
+    width: 23px;
+    background-color: #642C99;
+    border-radius: 20px;
+    position: absolute;
+    transition-duration: 0.25s;
+    transition-delay: 0.25s;
+  }
+  #hamburger_menu span:before {
+    left: 0;
+    position: absolute;
+    top: -7px;
+    height: 4px;
+    width: 30px;
+    background-color: #642C99;
+    content: "";
+    border-radius: 20px;
+    transition-duration: 0.25s;
+    transition: transform 0.25s, top 0.25s 0.25s;
+  }
+  #hamburger_menu span:after {
+    left: 0;
+    position: absolute;
+    top: 7px;
+    height: 4px;
+    width: 15px;
+    background-color: #642C99;
+    content: "";
+    border-radius: 20px;
+    transition-duration: 0.25s;
+    transition: transform 0.25s, top 0.25s 0.25s;
+  }
+  #hamburger_menu.open span {
+    transition-duration: 0.1s;
+    transition-delay: 0.25s;
+    background: transparent;
+  }
+  #hamburger_menu.open span:before {
+    transition: top 0.25s, transform 0.25s 0.25s;
+    top: 0px;
+    transform: rotateZ(-45deg);
+  }
+  #hamburger_menu.open span:after {
+    transition: top 0.4s, transform 0.25s 0.25s;
+    top: 0px;
+    width: 30px;
+    transform: rotateZ(45deg);
+ }
+
+
+
+
+/* Футер */
+.footer_container_main {
+    margin: -9vh 0 0 5vw;
+      width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+     }
+  .footer_container_all {
+      max-width: 120vw;
+      margin: 10vh 0 15vh 3vw;
+    }
+
+.footer_name {
+    font-family: Wendy One;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    height: 66px;
+    width: 131px;
+    color: #FDEFD1;
+}
+.footer_name:hover {
+    font-size: 5.2rem;
+    color: yellow;
+    cursor: pointer;
+    transition: 2s;
+}
+.footer_name a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+.footer_about {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FDEFD1;
+    
+}
+.story {
+    margin: 4vh 0;
+}
+.story a{
+    text-decoration: none;
+    color:#FDEFD1; 
+}
+.footer_mail {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FDEFD1;
+}
+#footer_email{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FDEFD1;
+    text-decoration: none;
+    background-color: #642C99;
+    border-radius: 8px;
+    border: 2px solid #FDEFD1;
+    height: 5.5vh;
+    width: 25vw;
+    padding-left: 2vw;
+}
+#footer_email::placeholder{
+    color: #FDEFD1;
+    text-decoration: none;
+}
+
+.footer_btn{
+    height: 6vh;
+    width: 7.5vw;
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: #FDEFD1;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.mail_container {
+    margin-top: 5vh;
+    display: flex;
+    gap: 2vw;
+}
+.copyright {
+    display: flex;
+     color: #FDEFD1;
+    font-family: Lato;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+justify-content: space-evenly;
+margin: 5vw 10vw 0 15vw;
+}
+.shop:hover,.story:hover,.why:hover {
+    color: yellow;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.9rem;
+}
+.shop a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+.why a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+#footer_email:hover,.footer_btn:hover{
+    color: rgb(245, 93, 6);
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.9rem;
+}
+ 
+.footer_copyright:hover,.priv_policy:hover,.cookies_policy:hover,.terms:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    color:yellow;
+}
+.wow{
+    animation-duration: 3s;
+}
+
+
+@media screen and (max-width:1350px){
+
+.cake_buy{
+    width: 40vw;
+}
+.cake_counter{
+    width: 15vw;
+    height: 5vh;
+ }
+ .cake_btn{
+    width: 30vw;
+    height: 5vh;
+ }
+}
+@media screen and (max-width:1295px){
+    .footer_container_all{
+        margin: 25vh auto;
+    }
+   
+}
+@media screen and (max-width:1150px){
+    body{
+    background-image: url("/image/bg.png") ;
+}
+#hamburger_menu{
+    width: 60px;
+    height: 45px;
+    transition-duration: 1s;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+
+}
+  .head1{
+    display: none;
+    
+ }
+ .header_menu_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    position: absolute;
+    top: 9vh;
+    left: 5vw;
+
+}
+ .activ_header{
+    display: block;
+}
+ .container{
+    margin: 25vh auto;
+ }
+ .container2{
+    margin: 3vw;
+ }
+ .header_name1 {
+    width: unset;
+ }
+ .container_head1{
+    max-width: 40%;
+ }
+ .container_img_head{
+    max-width: 40%;
+    margin-right: 10vw;
+ }
+ .container_middle_all{
+    margin: 15vh auto;
+ }
+ .container_cakes_buy{
+    margin: -30vh auto;
+ }
+ .cakes_collection{
+    margin: -10vh auto;
+ }
+ .descript3{
+    width: 50vw;
+ }
+ .footer_container_all {
+    margin: 25vh 0 15vh 3vw
+}
+}
+
+@media screen and (max-width:960px){
+    .container{
+        margin: 15vh auto;
+     }
+    .top_image_initial{
+        display: none;
+    }
+    .top_image_change{
+        display: block;
+ 
+    }
+    .header_name1 {
+        font-size: 10rem;
+    }
+    .header_name2{
+        font-size: 7rem;
+    }
+    .middle_cake_hole{
+        display:block;
+    }
+    .middle_cake_top{
+        display:none;
+    }
+    .middle_cake_bottom{
+        display:none;
+    }
+    .cakes_collection{
+        margin: 20vh auto 0;
+    }
+    .cakes_buy_header{
+        margin:25vh 0 0 5vw;
+        width: 70vw;
+     }
+     .container_cakes_buy{
+        margin: 0 auto;
+     }
+     .cake_buy{
+        margin: 0 auto;
+        width: 40vw;
+     }
+     .cake_counter{
+        width: 15vw;
+        height: 5vh;
+     }
+     .cake_btn{
+        width: 30vw;
+        height: 5vh;
+     }
+     .descript3{
+        width: 45vw;
+     }
+     .container_bottom{
+        margin: 50vh auto 0;
+     }
+     .container_img_bottom{
+        margin: 5vh auto;
+     }
+     .container3{
+        margin: -10vh auto;
+     }
+     .header_name3{
+        width: 70vw;
+     }
+   
+   
+   
+     .footer_container_all{
+        margin: 0vh 0 0 5vw
+       }
+     .footer_container_main {
+        flex-direction: column-reverse;
+        margin:0;
+    }
+   .copyright{
+    flex-direction:column-reverse;
+    margin: 1vh 0 0 0;
+   }
+   .footer_mail{
+    margin: 2vh 0 -6vh 0;
+   }
+   .mail_container{
+    flex-direction: column;
+    width: 100%;
+    margin: 2vh auto;
+   }
+   .story{
+    margin: 2vh 0;
+   }
+   #footer_email{
+    min-width:90% ;
+    }
+    .footer_btn{
+        min-width: 92.5%;
+        
+    }
+    }
+
+@media screen and (max-width:835px){
+     .header_name3{
+        font-size: 7rem;
+    } 
+    .header_menu_wrapper{
+        left: 7vw;
+    }
+    
+}
+@media screen and (max-width:770px){
+ .container{
+    flex-direction: column;
+    margin: 7vh auto;
+ }
+ .container_middle_all{
+    flex-direction: column-reverse;
+    margin: 10vh 0 0 7vw;
+ }
+ .descript1 {
+    width: 90vw;
+    }
+ .descript2{
+    height: unset;
+    width: 80vw;
+ }
+ 
+ .container_img_head{
+    width: 90vw;
+    margin: 0 auto;
+max-width: 100%; 
+}
+.container_img_middle{
+    margin: 5vh auto 0;
+}
+.header_name1{
+    height: unset;
+}
+ .header_name2 {
+    width: 75vw;
+    margin: 0 auto;
+ }
+ .middle_cake_hole{
+    width: 50vw;
+ }
+    .top_image_change2{
+        display: block;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    .top_image_change{
+        display: none;
+     }
+     .container_cakes_buy{
+        margin: -30vh auto -40vh;
+     }
+     .cakes_buy_header{
+        margin:45vh 0 35vh 5vw;
+        width: 80vw;
+     }
+     .header_name3{
+        margin: 0;
+     }
+     .cake_buy{
+        width: 80vw;
+     }
+     .cake_buy img{
+        width: 25vw;
+     }
+     .cake_name{
+        margin-top: 1vh;
+     }
+     .cake_descript{
+        margin: 1.5vh auto;
+        width: 65vw;
+     }
+     .counter_cake_container{
+        width: 70vw;
+        margin: 2vh auto;
+justify-content: space-around;
+gap: 5vw;
+     }
+     .cake_counter{
+        width: 15vw;
+       
+     }
+     .cake_btn{
+        width: 30vw;
+     }
+     .header_name1 {
+        font-size: 7rem;
+
+     }
+     .cakes_buy_header{
+        font-size: 7rem;
+     }
+     .cakes_collection {
+        margin: -25vh auto;
+        grid-gap: 5vw;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }
+    .container_bottom{
+        flex-direction: column;
+        margin: 60vh 0 0 0;
+        width: 100%;
+    }
+    .container_img_bottom img {
+        width: 40vw;
+    }
+    .container3{
+        margin: 25vh auto;
+        width: 80%;
+    }
+    .descript3{
+        width: 85vw;
+        margin: 0 auto;
+    }
+    .container_img_bottom {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    
+    }
+
+@media screen and (max-width:395px){
+    .container_img_head{
+       margin: 20vh auto;
+     }
+    .mail_container{
+        margin: 3vh auto;
+    }
+    .footer_container_all{
+        margin: 10vh 0 0 5vw;
+       }
+       .cake_btn{
+        font-size: 1.2rem;
+       }
+}
+
+
+
+

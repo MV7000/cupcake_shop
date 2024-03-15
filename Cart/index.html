@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/store.css" />
+    <link rel="stylesheet" href="/style/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_cont">
+        <div class="head_names_cont">
+          <div id="hamburger_menu">
+            <span></span>
+          </div>
+          <div class="header_menu_wrapper">
+            <div class="head1 head2"><a href="/index.html">Shop</a></div>
+            <div class="head1"><a href="#">Our story</a></div>
+            <div class="head1">
+              <a href="/Why%20Miss%20cupcake/index.html">Why Miss cupcake</a>
+            </div>
+          </div>
+        </div>
+        <div class="cart_header">
+          <div class="number_cakes"></div>
+          <img src="/image/Trolley icon.png" alt="cart" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="head_container">
+        <div class="top_descript_container">
+          <div class="main_name_cart">Check out</div>
+          <div class="main_descript_cart">
+            Complete your order and we'll bring it to your door.
+          </div>
+        </div>
+
+        <div class="img_change">
+          <img
+            src="/image/image 47 (1).png"
+            class="img_top_donat wow animate__animated animate__fadeInDown"
+            alt="donat"
+          />
+          <img
+            src="/image/image 82.png"
+            class="cake_one_change"
+            alt="piece_cake"
+          />
+        </div>
+      </div>
+
+      <div class="cakes_buying_container"></div>
+      <div class="price_button">
+        <div class="total_price">
+          <div class="label_total">Total to pay</div>
+          <div class="total_price_inCart">
+            <div class="">$</div>
+            <div class="total_sum_incart">0.00</div>
+          </div>
+        </div>
+        <button class="btn_buy_all">PLACE ORDER</button>
+      </div>
+      <div class="modal_cart_container">
+        <div class="header_modal">
+          <div class="modal_topper_name">My Bag</div>
+          <div class="mod_top_sign">X</div>
+        </div>
+        <div class="cakes_incheck"></div>
+        <div class="total_modal">
+          <div class="modal_total_pay">Total to pay</div>
+          <div class="modal_total_sum">
+            <div class="dol_sign">$</div>
+            <div class="count_total_sum">0.00</div>
+          </div>
+        </div>
+        <button class="btn_modal_checkout">CHECK OUT</button>
+        <button class="btn_modal_viewcart">VIEW CART</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container_all">
+        <div class="footer_name">
+          <a href="/Why%20Miss%20cupcake/index.html">Miss cupcake</a>
+        </div>
+        <div class="footer_container_main">
+          <div class="footer_about">
+            <div class="shop"><a href="/index.html">Shop</a></div>
+            <div class="story"><a href="/Cart/index.html">Our story</a></div>
+            <div class="why">
+              <a href="/Why%20Miss%20cupcake/index.html">Why Miss cupcake</a>
+            </div>
+          </div>
+          <div class="footer_mail">
+            <div class="mail_label">Suger up your Inbox</div>
+            <div class="mail_container">
+              <input
+                type="email"
+                name="Email address"
+                id="footer_email"
+                placeholder="Email address"
+              />
+              <button class="btn footer_btn">SEND</button>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="footer_copyright">© MISS CUPCAKES 2020</div>
+          <div class="priv_policy">Privacy policy</div>
+          <div class="cookies_policy">Cookies policy</div>
+          <div class="terms">Terms of use</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script/cart.js" type="module"></script>
+    <script src="/script/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

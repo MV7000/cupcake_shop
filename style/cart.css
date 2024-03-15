@@ -1,0 +1,527 @@
+@font-face {
+    font-family:Avenir;
+    src: url("/fonts/avenir_ff/AvenirLTStd-Book.otf")format("opentype");
+    }
+   
+body,:root{
+    margin: 0;
+    padding:0;
+    background-image: url("/image/bg 5 (1).png") ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family:Avenir;
+    font-size: 10px;
+ }
+   .head_container{
+    display: flex;
+    
+    }
+    .top_descript_container{
+        width: 45%;
+        margin: 15vh;
+        
+        }
+    .main_name_cart{
+        color: #642C99;
+font-family: Wendy One;
+font-size: 7rem;
+font-weight: 400;
+line-height: 127px;
+letter-spacing: 0em;
+
+ }
+    .main_descript_cart{
+        font-family: Lato;
+font-size: 1.8rem;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: #642C99;
+
+
+
+    }
+   
+    .img_top_donat{
+        margin-top: -16vh;
+    }
+.head2{
+    font-weight: 400;
+}
+.counter_cart{
+    display:flex;
+    gap: 1vw;
+    min-height: 35px;
+min-width: 100px;
+align-items: center;
+justify-content: center;
+    border:2px solid #642C99;
+    border-radius: 8px;
+    font-family: Avenir;
+font-size: 2rem;
+font-weight: 900;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #642C99;
+}
+.counter_cart:hover{
+    cursor: pointer;
+}
+.number_cakes{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #FCEFD2;
+    color: #642C99;
+    position: absolute;
+    right: -.7vw;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.counter_price_container{
+    display:flex;
+    gap: 5vw;
+    
+    align-items: center;
+   
+}
+.cake_one_change{
+    display: none;
+}
+.cake_img_name{
+    display:flex;
+    gap: 5vw;
+    width: 50vw;
+    align-items: center;
+   
+    
+}
+.cake_img_name img{
+    width:7vw;
+}
+.mafin_name{
+    font-family: Wendy One;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #642C99;
+    min-width: 20vw;
+}
+.price_inCart{
+    display: flex;
+ font-family: Wendy One;
+font-size: 3.6rem;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color: #642C99;
+}
+.price_mafin{
+    min-width: 10vw;
+}
+.buying_container{
+    display: flex;
+    width: 100%;
+    margin:10vh 0; 
+    
+}
+.cakes_buying_container{
+    border-bottom:2px solid #642C99;
+    width: 72%;
+    margin: 0vh auto;
+    /* min-height: 100vh; */
+
+}
+
+.total_price{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10vw;
+    margin:10vh 16vw 10vh 0;
+}
+.label_total{
+    font-family: Lato;
+font-size: 2rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #642C99;
+}
+.price_button{
+    display: flex;
+    flex-direction: column;
+   }
+.btn_buy_all{
+    height: 59px;
+width: 322px;
+border-radius: 8px;
+align-self:flex-end;
+margin:0 15vw 80vh 0 ;
+background-color: #642C99;
+font-family: Lato;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #FBFAC9;
+border: none;
+}
+.btn_buy_all:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.total_price_inCart{
+    display: flex;
+    justify-content: right;
+    font-family: Wendy One;
+font-size: 3.6rem;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color: #642C99;
+}
+
+
+.footer_container_all{
+    margin: 50vh 0 5vw 3vw;
+    max-width: 120vw;
+}
+
+.footer_container_main {
+    margin: -9vh 0 0 5vw;
+      width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+     }
+  
+
+.footer_name {
+    font-family: Wendy One;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    height: 66px;
+    width: 131px;
+    color: #FDEFD1;
+}
+.footer_name:hover {
+    font-size: 5.2rem;
+    color: yellow;
+    cursor: pointer;
+    transition: 2s;
+}
+.footer_name a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+.footer_about {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FDEFD1;
+    
+}
+.story {
+    margin: 4vh 0;
+}
+.story a{
+    text-decoration: none;
+    color:#FDEFD1; 
+}
+.footer_mail {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FDEFD1;
+}
+#footer_email{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FDEFD1;
+    text-decoration: none;
+    background-color: #642C99;
+    border-radius: 8px;
+    border: 2px solid #FDEFD1;
+    height: 5.5vh;
+    width: 25vw;
+    padding-left: 2vw;
+}
+#footer_email::placeholder{
+    color: #FDEFD1;
+    text-decoration: none;
+}
+.footer_btn{
+    height: 6vh;
+    width: 7.5vw;
+    color: #642C99;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: #FDEFD1;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.mail_container {
+    margin-top: 5vh;
+    display: flex;
+    gap: 2vw;
+}
+.copyright {
+    display: flex;
+     color: #FDEFD1;
+    font-family: Lato;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+justify-content: space-evenly;
+margin: 5vw 10vw 0 15vw;
+}
+.shop:hover,.story:hover,.why:hover {
+    color: yellow;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.9rem;
+}
+.shop a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+.why a{
+    text-decoration: none;
+    color:#FDEFD1;
+}
+#footer_email:hover,.footer_btn:hover{
+    color: rgb(245, 93, 6);
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.9rem;
+}
+ 
+.footer_copyright:hover,.priv_policy:hover,.cookies_policy:hover,.terms:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    color:yellow;
+}
+.wow{
+    animation-duration: 3s;
+}
+
+
+
+
+
+ .modal_cart_container {
+min-height: 100vh;
+width: 36vw;
+border-radius: 8px;
+position: absolute;
+top: 6vw;
+left: 60vw;
+background-color: #FDEFD1;
+box-shadow: 5px 5px 5px #f8e9c7 ;
+display: none;
+}
+.invisible{
+    display: none;
+}
+.modal_visability{
+    display: block;
+}
+
+
+
+
+
+@media screen and (max-width:1230px) {
+  
+   .modal_topper_name{
+    width: 80%;
+    text-align: unset;
+   }
+   .head_container{
+    margin: 10vh auto;
+   }
+}
+
+@media screen and (max-width:1150px) {
+    .head_container{
+        flex-direction: column;
+       }
+       .top_descript_container{
+              width: 100%;
+              text-align: unset;
+              margin: 0;
+           }
+      .img_change{
+       width: 102vw;
+   display: flex;
+   justify-content: right;
+       
+   }
+   
+       .cake_one_change{
+       display: block;
+       width: 40vw;
+       
+       }
+       .img_top_donat {
+           display: none;
+       }
+       .main_name_cart{
+           margin-left: 2vw;
+              
+       }
+       .main_descript_cart{
+           margin-left: 2vw;
+           width: 100%;
+        }
+      
+      
+        .footer_container_all{
+            margin: 70vh 0 0 5vw
+           }
+        .footer_container_main {
+            flex-direction: column-reverse;
+            margin:3vh 0 0 0;
+        }
+       .copyright{
+        flex-direction:column-reverse;
+        margin: 0;
+       }
+       .mail_container{
+        flex-direction: column;
+        width: 100%;
+       }
+       #footer_email{
+        min-width:90% ;
+        }
+        .footer_btn{
+            min-width: 92.5%;
+            
+        }
+}
+@media screen and (max-width:970px) {
+    .cakes_colections{
+        flex-direction: column;
+    }
+    .left_part{
+        border-bottom: 2px solid #642C99;
+    }
+    .right_part{
+        margin: 0 0 1vh 0 ;
+    }
+    .total_modal{
+        gap: 0vw;
+    }
+}
+@media screen and (max-width:840px) {
+   
+   .cakes_buying_container{
+    width: 50%;
+    margin: 0 auto;
+   }
+    .buying_container{
+        flex-direction: column;
+   
+    }
+    .mafin_name{
+        border-bottom: 2px solid #642C99;
+    width: 100%;
+    }
+    .counter_price_container{
+        justify-content: space-around;
+    width: 90%;
+    margin: 1vh 0 0 9vw;
+    gap: 7vw;
+    }
+   .total_price{
+    gap: 25vw;
+    margin: 10vh auto;
+    width: 51vw;
+   }
+   .btn_buy_all{
+    width: 52vw;
+    align-self: center;
+    margin: 0 auto 50vh;
+   }
+  
+}
+@media screen and (max-width:750px) {
+    .left_part{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cake_modal_name{
+        width: 10%;
+    }
+    .modal_topper_name{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .img_change{
+        margin-left: 0vw;
+    }
+    .total_price {
+        gap: 18vw;
+    }
+    .counter_price_container{
+        gap: 0;
+    }
+    
+}
+@media screen and (max-width:530px) {
+    .main_name_cart{
+font-size: 6rem;
+    }
+    .main_descript_cart{
+        width: 70%;
+    }
+    
+    .mafin_name{
+        font-size: 2.5rem;
+    }
+    .total_price_inCart{
+        font-size: 2.5rem;
+    }
+    .counter_cart{
+        font-size: 1.5rem;
+        gap: 3vw;
+        min-width: 70px;
+    }
+    .price_inCart{
+        font-size: 2rem;
+    }
+    .total_sum_incart{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:460px) {
+    .main_name_cart{
+        font-size: 5rem;
+            }
+   
+}
